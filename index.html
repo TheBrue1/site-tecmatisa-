@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- AOS -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Google Fonts Lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -137,9 +139,12 @@
       </button>
    </div>
    <!-- MINI BANNERS-->
-   <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+   <div class="col-12 col-md-10 offset-md-1" id="mini-banners" > 
     <div class="row">
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4"
+       data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div class="card text-center">
           <i class="bi bi-box primary-color"></i>
           <div class="card-body">
@@ -151,7 +156,10 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div class="card text-center">
           <i class="bi bi-layers primary-color"></i>
           <div class="card-body">
@@ -163,7 +171,10 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4" 
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000" >
         <div class="card text-center">
           <i class="bi bi-lightning-charge"></i>
           <div class="card-body primary-color">
@@ -367,5 +378,9 @@
     </div>
   </div>
 </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

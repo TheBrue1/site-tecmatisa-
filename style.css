@@ -90,12 +90,13 @@
 }
 @media (min-width: 768px) {
   .img-carousel{
-    height: 450px;
+    height: 500px;
    }
   #slider .carousel-caption {
     bottom: 15em;
   }
   #slider .carousel-caption h5 {
+    margin-top: 100px;
     font-size: 4em;
     text-shadow: #000 2px 3px;
   }
