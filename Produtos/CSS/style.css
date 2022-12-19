@@ -8,12 +8,39 @@ body{
 }
 
 /*cabeçalho*/
-.container{
+/* NAVBAR */
+#navbar a {
+    color:black;
+  }
+  #navbar a:hover {
+    color: red;
+  }
+  #navbar{
+    font-weight: bolder;
+  }
+  .navbar-brand {
     display: flex;
-    flex-flow: wrap row;
-    height: 100px;
-    align-items: center;
-}
+  }
+  
+  .navbar-brand img {
+    width: 200px;
+  }
+  
+  .navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+  
+  #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #navbar-items .nav-item {
+    margin: 0 1em;
+  }
 
 .logo{
     margin-left: 20px;

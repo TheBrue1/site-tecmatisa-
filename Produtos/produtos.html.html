@@ -9,19 +9,40 @@
 </head>
 <body>
  <!--Cabeçalho-->
-<header>
-    <div class="container">
-          <div class="logo">
-            <img style="width: 250px;" src="../img/novo-logo-tecmatisa.png" alt="logo tecmatisa">
-          </div>
-          <nav class="menu">
-            <a href="#">Home</a>
-            <a href="#">Serviços</a>
-            <a href="#">Produtos</a>
-            <a href="#">Contato</a>
-          </nav>
-        </div>
-</header>
+ <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+    <div class="container py-3">
+      <a href="#" class="navbar-brand logo-link">
+        <img src="Img/novo-logo-tecmatisa.png" alt="novo-logo-tecmatisa" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar-items"
+        aria-controls="navbar-items"
+        aria-expanded="false"
+        aria-label="toggle navigation"
+      >
+        <i class="bi-list"></i>
+      </button>
+       <div class="copllapse navbar-collapse" id="navbar-items">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#" class="nav-link active primary-color " aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="Services/services.html" class="nav-link primary-color " aria-current="page">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link primary-color " aria-current="page">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link primary-color " aria-current="page">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
 
 <!--banner-->
 <div>
@@ -45,7 +66,7 @@
  <!-- prensa enfardadeira -->   
     <div class="box1">
         <div class="enfardadeira-vertical">
-            <img style="width: 170px;" src="/img/prensa enfardadeira vertical.png" alt="">
+            <img style="width: 170px;" src="img/prensa enfardadeira vertical.png" alt="">
         </div>
         <div class="conteudo-enfardadeira">
             <h2>Prensa Enfardadeira Vertical</h2>
@@ -64,7 +85,7 @@
  <!-- prensa jacare -->
     <div class="box2">
         <div class="prensa-jacare">
-            <img style="width: 170px;" src="/img/prensa jacare.png" alt="">
+            <img style="width: 170px;" src="img/prensa jacare.png" alt="">
         </div>
         <div class="conteudo-jacare">
             <h2>Prensa Jacaré</h2>
@@ -82,7 +103,7 @@
     <!-- prensa horizontal -->
     <div class="box3">
         <div class="prensa-horizontal">
-            <img style="width: 170px;" src="/img/prensa horizontal.png" alt="">
+            <img style="width: 170px;" src="img/prensa horizontal.png" alt="">
         </div>
         <div class="conteudo-prensa-horizontal">
             <h2>Prensa horizontal</h2>
